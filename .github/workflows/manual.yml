@@ -23,7 +23,6 @@ jobs:
     - name: install postman
       run: |
 
-        curl -o- "https://dl-cli.pstmn.io/install/unix.sh" | sh
-
+        curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
         postman --version
 
